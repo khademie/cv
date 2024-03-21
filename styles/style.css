@@ -9,7 +9,7 @@
 	--s-shade: #134954;
 }
 .upper {
-	height: 28%;
+	height: 15%;
 	display: flex;
 	gap: 1.8rem;
 	border-bottom: 1px solid var(--s-shade);
@@ -25,8 +25,9 @@
 }
 .upper-text {
 	display: flex;
-	flex-direction: column;
-	gap: 0.4rem;
+	/* flex-direction: column; */
+  gap: 2.4rem;
+  align-items: center;
 }
 .upper-text__titlebox {
 	color: var(--primary);
@@ -43,7 +44,7 @@
 	display: flex;
 	height: 70%;
 	flex-direction: column;
-	gap: 2.6rem;
+	gap: 4.6rem;
 }
 .skills {
 	display: flex;
