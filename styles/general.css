@@ -72,6 +72,9 @@ ul li::marker {
 .m-right {
 	margin-right: 2rem;
 }
+.m-left {
+	margin-left: 2rem;
+}
 .grid__2-col {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
